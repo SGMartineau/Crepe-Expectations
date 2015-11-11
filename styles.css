@@ -1,0 +1,37 @@
+.nav-wrapper {
+    background-color: #49BCE3;
+    
+}
+
+footer.page-footer {
+    background-color: #49BCE3;
+    clear: both;
+}
+
+.bacon {
+    width: 45%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.rev {
+    text-align: center;
+    
+}
+
+#yodude {
+    flex-wrap: wrap;
+}
+
+#cmonman {
+    width: 30%;
+    margin: 1%;
+    min-width: 200px;
+}
+
+.letsgetthis {
+    height: 460px;
+}
+
+
+

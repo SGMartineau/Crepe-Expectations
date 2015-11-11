@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='crepeApp'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crepe Expectations</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    
+  <nav>
+    <div class="nav-wrapper">
+      <a ng-href="#/" class="brand-logo">Crepe Expectations</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a ng-href="#/about">About Us</a></li>
+        <li><a ng-href="#/product">Product</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+   
+    
+    
+  <div class="parallax-container">
+    <div class="parallax"><img src="https://mymegusta.files.wordpress.com/2015/07/crepes-fruit.jpg"></div>
+</div>
+    
+  
+    
+    <div ui-view></div>
+    
+
+    
+    
+ 
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contact Us</h5>
+                <p class="grey-text text-lighten-4">Scott Martineau: scottgmartineau@gmail.com<br/>Zach Hebein: zach.hebein@gmail.com</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" ng-href="#/about">About Us</a></li>
+                  <li><a class="grey-text text-lighten-3" ng-href="#/product">Product</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Established in 2014
+            </div>
+          </div>
+        </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/forMater.js"></script>
+    <script src="js/mainCtrl.js"></script>
+</body>
+</html>
