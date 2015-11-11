@@ -6,7 +6,8 @@ angular.module('crepeApp', ['ui.router'])
         
         .state('home', {
             url: '/',
-            templateUrl: 'js/home/homeTmpl.html'
+            templateUrl: 'js/home/homeTmpl.html',
+            controller: 'homeCtrl'
         })
     
         .state('reviews', {
